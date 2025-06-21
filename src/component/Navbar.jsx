@@ -14,7 +14,8 @@ const navbar = () => {
             <Link to='/state' className='Link'>useState</Link>
             <Link to='/effect' className='Link'>useEffect</Link>
             <Link to='/login' className='Link'>Login</Link>
-              
+            <Link to='/ref' className='Link'>useRef</Link>
+            <Link to='/reducer' className='Link'>useReducer</Link> 
             
         </nav>
     </div>

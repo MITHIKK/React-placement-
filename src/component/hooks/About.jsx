@@ -1,8 +1,10 @@
 import React from 'react'
 
-const About = () => {
+const About = ({items}) => {
   return (
-    <div>about</div>
+    <div>
+      {items.map((fruit)=>(<li key={fruit}>{fruit}</li>))}
+    </div>
     
   )
 }
