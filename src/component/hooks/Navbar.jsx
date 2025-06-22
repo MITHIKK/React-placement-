@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css' // Assuming you have a CSS file for styling
 import { Link } from 'react-router-dom'
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <div>
         <nav className='navbar'>
@@ -22,4 +22,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

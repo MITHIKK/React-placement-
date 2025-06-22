@@ -1,5 +1,5 @@
 import Counter from "./component/hooks/Counter.jsx"
-import Navbar from "./component/navbar.jsx"
+import Navbar from "./component/hooks/Navbar.jsx"
 import Home from "./component/hooks/Home.jsx"
 import { Routes, Route } from "react-router-dom";
 import About from "./component/hooks/About.jsx"; // Assuming you have an About component
