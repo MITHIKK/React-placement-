@@ -1,4 +1,4 @@
-import Counter from "./component/counter.jsx"
+import Counter from "./component/Counter.jsx"
 import Navbar from "./component/navbar.jsx"
 import Home from "./component/hooks/Home.jsx"
 import { Routes, Route } from "react-router-dom";
